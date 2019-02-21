@@ -98,5 +98,5 @@ public annotation class UseSerializers(vararg val serializerClasses: KClass<*>)
  * This annotation is applied automatically to interfaces and serializable abstract classes
  * and can be applied to open classes in addition to [Serializable] for the sake of simplicity.
  */
-@Target(AnnotationTarget.PROPERTY, AnnotationTarget.TYPE)
+@Target(AnnotationTarget.PROPERTY, AnnotationTarget.TYPE, AnnotationTarget.CLASS)
 public annotation class Polymorphic
