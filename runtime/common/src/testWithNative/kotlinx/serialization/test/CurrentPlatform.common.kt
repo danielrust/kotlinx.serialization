@@ -12,3 +12,4 @@ public expect val currentPlatform: Platform
 
 public fun isJs(): Boolean = currentPlatform == Platform.JS
 public fun isJvm(): Boolean = currentPlatform == Platform.JVM
+public fun isNative(): Boolean = currentPlatform == Platform.NATIVE
